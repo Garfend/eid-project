@@ -2,7 +2,7 @@
   {
     "name": "سماعات سوني WH-1000XM4",
     "description": "سماعات رأس لاسلكية مع إلغاء ضوضاء متقدم وجودة صوت عالية.",
-    "category": "سماعات",
+    "category": "headphones",
     "images": [
       "./assets/images/sony_1000xm4-1.jpg",
       "./assets/images/sony_1000xm4-2.jpg",
@@ -17,7 +17,7 @@
   {
     "name": "هاتف سامسونج جالاكسي S25",
     "description": "هاتف ذكي بشاشة 6.5 إنش، كاميرا ثلاثية، وسعة تخزين 128 جيجابايت.",
-    "category": "هواتف",
+    "category": "smartphones",
     "images": [
       "./assets/images/sam_25s-1.jpg",
       "./assets/images/sam_25s-2.jpg",
@@ -30,7 +30,7 @@
   {
     "name": "ساعة آبل ووتش سيريز 8",
     "description": "ساعة ذكية مع ميزات تتبع الصحة واللياقة، وتصميم أنيق.",
-    "category": "ساعات",
+    "category": "smartwatches",
     "images": [
       "./assets/images/apple-watch-series-8-45mm-midnight_1.jpg",
       "./assets/images/apple-watch-series-8-45mm-midnight_2.jpg",
@@ -44,7 +44,7 @@
   {
     "name": "لابتوب ديل XPS 13",
     "description": "لابتوب فائق النحافة مع شاشة 13.4 إنش وأداء عالي.",
-    "category": "لابتوبات",
+    "category": "laptops",
     "images": [
       "./assets/images/لابتو_ديل_XPS_13+1.webp",
       "./assets/images/لابتو_ديل_XPS_13+2.webp",
@@ -58,7 +58,7 @@
   {
     "name": "كاميرا كانون EOS R5",
     "description": "كاميرا رقمية بدون مرآة بدقة 45 ميجابكسل وتصوير فيديو 8K.",
-    "category": "كاميرات",
+    "category": "cameras",
     "images": [
       "./assets/images/canon-camera-1.jpg",
       "./assets/images/canon-camera-2.jpg",
@@ -71,7 +71,7 @@
   {
     "name": "جهاز أمازون كيندل بيبروايت",
     "description": "قارئ إلكتروني بشاشة 6.8 إنش وإضاءة أمامية قابلة للتعديل.",
-    "category": "أجهزة إلكترونية",
+    "category": "e-readers",
     "images": [
       "./assets/images/kendel-1.jpg",
       "./assets/images/kendel-2.jpg",
@@ -85,7 +85,7 @@
   {
     "name": "سماعات أبل AirPods Pro",
     "description": "سماعات أذن لاسلكية مع إلغاء ضوضاء نشط وتصميم مريح.",
-    "category": "سماعات",
+    "category": "headphones",
     "images": [
       "./assets/images/airpods-pro-1.jpg",
       "./assets/images/airpods-pro-2.jpg",
@@ -99,7 +99,7 @@
   {
     "name": "جهاز جوجل Nest Hub",
     "description": "شاشة ذكية مقاس 7 إنش مع مساعد جوجل المدمج.",
-    "category": "أجهزة ذكية",
+    "category": "smart-home-devices",
     "images": [
       "./assets/images/nest-hub-1.jpg",
       "./assets/images/nest-hub-2.jpg",
@@ -113,7 +113,7 @@
   {
     "name": "تابلت سامسونج جالاكسي Tab S8",
     "description": "جهاز لوحي بشاشة 11 إنش وأداء عالي للاستخدام المتعدد.",
-    "category": "أجهزة لوحية",
+    "category": "tablets",
     "images": [
       "./assets/images/sam-tab-s8-1.jpg",
       "./assets/images/sam-tab-s8-2.jpg",
@@ -127,7 +127,7 @@
   {
     "name": "كاميرا نيكون Z6 II",
     "description": "كاميرا بدون مرآة بدقة 24.5 ميجابكسل وأداء عالي في الإضاءة المنخفضة.",
-    "category": "كاميرات",
+    "category": "cameras",
     "images": [
       "./assets/images/canon-6ii-1.jpg",
       "./assets/images/canon-6ii-2.jpg",
@@ -137,305 +137,5 @@
     "rating": 4.7,
     "price": 1999,
     "id": 10
-  },
-  {
-    "name": "شاشة LG UltraGear 27",
-    "description": "شاشة ألعاب بدقة QHD ومعدل تحديث 144Hz مع تقنية G-Sync.",
-    "category": "شاشات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.6,
-    "price": 349,
-    "id": 11
-  },
-  {
-    "name": "ماوس لوجيتك MX Master 3",
-    "description": "ماوس احترافي للعمل والإنتاجية بدقة عالية وتصميم مريح.",
-    "category": "إكسسوارات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.9,
-    "price": 99,
-    "id": 12
-  },
-  {
-    "name": "طابعة HP LaserJet Pro M404dn",
-    "description": "طابعة ليزر أحادية اللون مخصصة للمكاتب، بدقة طباعة عالية وسرعة ممتازة.",
-    "category": "طابعات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.5,
-    "price": 229,
-    "id": 13
-  },
-  {
-    "name": "جهاز بلايستيشن 5",
-    "description": "جهاز ألعاب الجيل الجديد من سوني مع دعم ألعاب 4K وأداء عالي.",
-    "category": "ألعاب",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.9,
-    "price": 499,
-    "id": 14
-  },
-  {
-    "name": "مكبر صوت JBL Flip 6",
-    "description": "مكبر صوت بلوتوث مقاوم للماء مع صوت قوي ونقي.",
-    "category": "مكبرات صوت",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 129,
-    "id": 15
-  },
-  {
-    "name": "جهاز بث Roku Streaming Stick 4K",
-    "description": "جهاز بث الوسائط بدقة 4K مع دعم Netflix وYouTube وتطبيقات كثيرة.",
-    "category": "أجهزة بث",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.6,
-    "price": 49,
-    "id": 16
-  },
-  {
-    "name": "مكنسة ذكية روبوت Roborock S7",
-    "description": "مكنسة روبوت ذكية مع خاصية المسح والتخطيط بالليزر.",
-    "category": "أجهزة منزلية",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.8,
-    "price": 599,
-    "id": 17
-  },
-  {
-    "name": "مايك Blue Yeti X",
-    "description": "مايك احترافي لتسجيل الصوت والبودكاست بجودة استوديو.",
-    "category": "مايكروفونات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.8,
-    "price": 169,
-    "id": 18
-  },
-  {
-    "name": "جهاز تبريد Cooler Master Hyper 212",
-    "description": "مبرد هوائي للمعالج بكفاءة عالية وأداء تبريد ممتاز.",
-    "category": "مكونات الحاسوب",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.6,
-    "price": 39,
-    "id": 19
-  },
-  {
-    "name": "لوحة مفاتيح ميكانيكية Razer BlackWidow V3",
-    "description": "لوحة مفاتيح للألعاب بإضاءة RGB ومفاتيح ميكانيكية.",
-    "category": "إكسسوارات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 129,
-    "id": 20
-  },
-  {
-    "name": "سماعة رأس HyperX Cloud II",
-    "description": "سماعة ألعاب سلكية مع صوت محيطي 7.1 وراحة في الارتداء.",
-    "category": "سماعات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 89,
-    "id": 21
-  },
-  {
-    "name": "مكبر صوت Amazon Echo Dot 5",
-    "description": "مساعد ذكي بصوت أليكسا مع مكبر صوت قوي بحجم صغير.",
-    "category": "أجهزة ذكية",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.6,
-    "price": 49.99,
-    "id": 22
-  },
-  {
-    "name": "شاشة ASUS TUF Gaming VG27",
-    "description": "شاشة ألعاب 27 إنش بدقة Full HD مع معدل تحديث 165Hz.",
-    "category": "شاشات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.5,
-    "price": 279,
-    "id": 23
-  },
-  {
-    "name": "هاتف شاومي Redmi Note 12 Pro",
-    "description": "هاتف ذكي بكاميرا 108MP وبطارية 5000mAh وشاشة AMOLED.",
-    "category": "هواتف",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.6,
-    "price": 299,
-    "id": 24
-  },
-  {
-    "name": "جهاز Nintendo Switch OLED",
-    "description": "جهاز ألعاب محمول بشاشة OLED وتجربة لعب سلسة.",
-    "category": "ألعاب",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.9,
-    "price": 349,
-    "id": 25
-  },
-  {
-    "name": "مكبر صوت Sony SRS-XB43",
-    "description": "مكبر صوت بلوتوث مقاوم للماء مع صوت جهير قوي.",
-    "category": "مكبرات صوت",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 179,
-    "id": 26
-  },
-  {
-    "name": "لوحة تحكم Xbox Elite Series 2",
-    "description": "يد تحكم احترافية قابلة للتخصيص بالكامل لتجربة ألعاب مثالية.",
-    "category": "إكسسوارات ألعاب",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.8,
-    "price": 179.99,
-    "id": 27
-  },
-  {
-    "name": "لابتوب Lenovo Legion 5 Pro",
-    "description": "حاسوب محمول مخصص للألعاب بمعالج Ryzen وشاشة QHD.",
-    "category": "لابتوبات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 1399,
-    "id": 28
-  },
-  {
-    "name": "كاميرا GoPro HERO11 Black",
-    "description": "كاميرا مغامرات مقاومة للماء تدعم تصوير 5.3K.",
-    "category": "كاميرات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.8,
-    "price": 499,
-    "id": 29
-  },
-  {
-    "name": "سماعات رأس SteelSeries Arctis 7",
-    "description": "سماعات لاسلكية مخصصة للألعاب بصوت محيطي 7.1.",
-    "category": "سماعات",
-    "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
-    ],
-    "rating": 4.7,
-    "price": 149,
-    "id": 30
   }
 ]
