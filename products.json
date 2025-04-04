@@ -19,11 +19,9 @@
     "description": "هاتف ذكي بشاشة 6.5 إنش، كاميرا ثلاثية، وسعة تخزين 128 جيجابايت.",
     "category": "هواتف",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/sam_25s-1.jpg",
+      "./assets/images/sam_25s-2.jpg",
+      "./assets/images/sam_25s-3.jpg"
     ],
     "rating": 4.7,
     "price": 999,
@@ -34,11 +32,10 @@
     "description": "ساعة ذكية مع ميزات تتبع الصحة واللياقة، وتصميم أنيق.",
     "category": "ساعات",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/apple-watch-series-8-45mm-midnight_1.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_2.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_3.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_4.jpg"
     ],
     "rating": 4.9,
     "price": 429,
@@ -49,11 +46,10 @@
     "description": "لابتوب فائق النحافة مع شاشة 13.4 إنش وأداء عالي.",
     "category": "لابتوبات",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/لابتو_ديل_XPS_13+1.webp",
+      "./assets/images/لابتو_ديل_XPS_13+2.webp",
+      "./assets/images/لابتو_ديل_XPS_13+3.webp",
+      "./assets/images/لابتو_ديل_XPS_13+4.webp"
     ],
     "rating": 4.6,
     "price": 1200,
@@ -64,11 +60,9 @@
     "description": "كاميرا رقمية بدون مرآة بدقة 45 ميجابكسل وتصوير فيديو 8K.",
     "category": "كاميرات",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/canon-camera-1.jpg",
+      "./assets/images/canon-camera-2.jpg",
+      "./assets/images/canon-camera-3.jpg"
     ],
     "rating": 4.8,
     "price": 3899,
@@ -79,11 +73,10 @@
     "description": "قارئ إلكتروني بشاشة 6.8 إنش وإضاءة أمامية قابلة للتعديل.",
     "category": "أجهزة إلكترونية",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/kendel-1.jpg",
+      "./assets/images/kendel-2.jpg",
+      "./assets/images/kendel-3.jpg",
+      "./assets/images/kendel-4.jpg"
     ],
     "rating": 4.7,
     "price": 139,
@@ -94,11 +87,10 @@
     "description": "سماعات أذن لاسلكية مع إلغاء ضوضاء نشط وتصميم مريح.",
     "category": "سماعات",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/airpods-pro-1.jpg",
+      "./assets/images/airpods-pro-2.jpg",
+      "./assets/images/airpods-pro-3.jpg",
+      "./assets/images/airpods-pro-4.jpg"
     ],
     "rating": 4.8,
     "price": 249,
@@ -109,11 +101,10 @@
     "description": "شاشة ذكية مقاس 7 إنش مع مساعد جوجل المدمج.",
     "category": "أجهزة ذكية",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/nest-hub-1.jpg",
+      "./assets/images/nest-hub-2.jpg",
+      "./assets/images/nest-hub-3.jpg",
+      "./assets/images/nest-hub-4.jpg"
     ],
     "rating": 4.6,
     "price": 99,
@@ -124,11 +115,10 @@
     "description": "جهاز لوحي بشاشة 11 إنش وأداء عالي للاستخدام المتعدد.",
     "category": "أجهزة لوحية",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/sam-tab-s8-1.jpg",
+      "./assets/images/sam-tab-s8-2.jpg",
+      "./assets/images/sam-tab-s8-3.jpg",
+      "./assets/images/sam-tab-s8-4.jpg"
     ],
     "rating": 4.7,
     "price": 699,
@@ -139,11 +129,10 @@
     "description": "كاميرا بدون مرآة بدقة 24.5 ميجابكسل وأداء عالي في الإضاءة المنخفضة.",
     "category": "كاميرات",
     "images": [
-      "./assets/images/sony_1000xm4-1.jpg",
-      "./assets/images/sony_1000xm4-2.jpg",
-      "./assets/images/sony_1000xm4-3.jpg",
-      "./assets/images/sony_1000xm4-4.jpg",
-      "./assets/images/sony_1000xm4-5.jpg"
+      "./assets/images/canon-6ii-1.jpg",
+      "./assets/images/canon-6ii-2.jpg",
+      "./assets/images/canon-6ii-3.jpg",
+      "./assets/images/canon-6ii-4.jpg"
     ],
     "rating": 4.7,
     "price": 1999,

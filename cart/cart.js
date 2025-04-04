@@ -18,25 +18,21 @@ function renderCart() {
       <div class="item-info">
         <div>
         <h3>${item.name}</h3>
-        <p>السعر: ${item.price} ج.م</p>
+        <p class="item-price">السعر: ${item.price} ج.م</p>
         </div>
+         <div class="item-cart">
          <div>
-            <span>حدد الكميه</span>
             <span class="update-cart">
             <button class="add-btn" data-id="${item.id}">+</button>
             <span class="cart-number" data-id="${item.id}">${item.amount}</span>
             <button class="remove-btn" data-id="${item.id}">-</button>
             </span>
         </div>
-       <div>
-        <p class="total-price">الإجمالي: ${new Intl.NumberFormat(
-          "ar-EG"
-        ).format(item.price * item.amount)} ج.م</p>
-        </div>
         <button onclick="removeFromCart(${item.id})" class="remove-from-cart">
         حذف 
         <i class="fa-solid fa-trash"></i>
         </button>
+        </div>
       </div>
     </div>
   `
