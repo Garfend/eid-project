@@ -1,7 +1,7 @@
-
 async function loadProducts() {
   const res = await fetch("data/products.json");
   const products = await res.json();
+  localStorage.setItem("products", JSON.stringify(products));
   displayProducts(products);
 }
 
@@ -17,7 +17,11 @@ function displayProducts(products) {
                     <div class="badge badge-sale">خصم %25</div>
                   
                     <!-- Product Image -->
-                    <img src="${products[i].images[0]}" alt="${products[i].name}" class="product-image" />
+                    <a href="./products/?id=${products[i].id}">
+                    <img src="${products[i].images[0]}" alt="${
+      products[i].name
+    }" class="product-image" />
+                    </a>
                   
                     <!-- Content -->
                     <div class="content1">
@@ -26,13 +30,17 @@ function displayProducts(products) {
                       <div class="desc">${products[i].description}</div>
                   
                       <div class="price-box">
-                        <span class="original-price">${(products[i].price * 1.25).toFixed(2)} جنيه</span>
+                        <span class="original-price">${(
+                          products[i].price * 1.25
+                        ).toFixed(2)} جنيه</span>
                         <span class="price">${products[i].price} جنيه</span>
                       </div>
                   
                       <!-- Buttons -->
                       <div class="buttons">
-                        <button class="add-to-cart" onclick="addToCart(${products[i].id})">
+                        <button class="add-to-cart" onclick="addToCart(${
+                          products[i].id
+                        })">
                           🛒 أضف للسلة
                         </button>
                       </div>
@@ -50,14 +58,31 @@ function addToCart(productId) {
     return;
   }
 
-  if (!user.cart.includes(productId)) {
+  const products = JSON.parse(localStorage.getItem("products")) || [];
+  console.log("products", products);
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  const product = products.find((p) => p.id === productId);
+  const existing = cart.find((item) => item.id === productId);
+
+  if (!existing) {
+    const newItem = {
+      ...product,
+      amount: 1,
+    };
+    cart.push(newItem);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    document.querySelector(".cart-number").innerHTML = cart.length;
+
+    // Sync with currentUser
+    user.cart = user.cart || [];
     user.cart.push(productId);
     localStorage.setItem("currentUser", JSON.stringify(user));
 
-    const users = JSON.parse(localStorage.getItem("users")).map(u =>
-      u.id === user.id ? user : u
-    );
-    localStorage.setItem("users", JSON.stringify(users));
+    // Update in users list
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    const updatedUsers = users.map((u) => (u.id === user.id ? user : u));
+    localStorage.setItem("users", JSON.stringify(updatedUsers));
 
     alert("✅ Added to cart!");
   } else {
@@ -65,4 +90,19 @@ function addToCart(productId) {
   }
 }
 
+
+
 loadProducts();
+
+(function getCartLength() {
+  const user = getCurrentUser();
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  if (!user) return 0;
+  console.log("user", cart.length);
+  var cartNumber = document.querySelector("#cart-number");
+  if (cartNumber) {
+    cartNumber.innerHTML = `Cart (${cart.length})`;
+  }
+  return cart.length;
+})();

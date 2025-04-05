@@ -1,31 +1,30 @@
-
 function generateToken() {
-  return 'token-' + Math.random().toString(36).substr(2, 16);
+  return "token-" + Math.random().toString(36).substr(2, 16);
 }
 
 function getUsers() {
-  return JSON.parse(localStorage.getItem('users')) || [];
+  return JSON.parse(localStorage.getItem("users")) || [];
 }
 
 function saveUsers(users) {
-  localStorage.setItem('users', JSON.stringify(users));
+  localStorage.setItem("users", JSON.stringify(users));
 }
 
 function getCurrentUser() {
-  return JSON.parse(localStorage.getItem('currentUser'));
+  return JSON.parse(localStorage.getItem("currentUser"));
 }
 
 function setCurrentUser(user) {
-  localStorage.setItem('currentUser', JSON.stringify(user));
+  localStorage.setItem("currentUser", JSON.stringify(user));
 }
 
 function clearCurrentUser() {
-  localStorage.removeItem('currentUser');
+  localStorage.removeItem("currentUser");
 }
 
 function registerUser(name, email, password) {
   const users = getUsers();
-  const existing = users.find(u => u.email === email);
+  const existing = users.find((u) => u.email === email);
   if (existing) return false;
 
   const user = {
@@ -34,7 +33,7 @@ function registerUser(name, email, password) {
     email,
     password,
     token: generateToken(),
-    cart: []
+    cart: [],
   };
 
   users.push(user);
@@ -45,7 +44,7 @@ function registerUser(name, email, password) {
 
 function loginUser(email, password) {
   const users = getUsers();
-  const user = users.find(u => u.email === email && u.password === password);
+  const user = users.find((u) => u.email === email && u.password === password);
   if (!user) return false;
 
   user.token = generateToken();
@@ -57,7 +56,7 @@ function loginUser(email, password) {
 function logoutUser() {
   const users = getUsers();
   const current = getCurrentUser();
-  const updatedUsers = users.map(user => {
+  const updatedUsers = users.map((user) => {
     if (user.id === current.id) {
       return { ...user, token: null };
     }
@@ -77,3 +76,16 @@ function protectRoute(redirectTo = "login.html") {
     window.location.href = redirectTo;
   }
 }
+
+(function getCartLength() {
+  const user = getCurrentUser();
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  if (!user) return 0;
+  console.log("user", cart.length);
+  var cartNumber = document.querySelector("#cart-number");
+  if (cartNumber) {
+    cartNumber.innerHTML = `Cart (${cart.length})`;
+  }
+  return cart.length;
+})();
