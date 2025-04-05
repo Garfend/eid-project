@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Login</title>
+<link href="style/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<h2>Login</h2>
+<form id="loginForm">
+<input id="loginEmail" placeholder="Email" required="" type="email"/>
+<div class="password-container">
+<input id="loginPassword" placeholder="Password" required="" type="password"/>
+<span class="toggle-password" onclick="togglePassword('loginPassword')">👁️</span>
+</div>
+<button type="submit">Login</button>
+</form>
+<p>Don't have an account? <a href="register.html">Register here</a></p>
+</div>
+
+<script src="js/auth.js"></script>
+<script>
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const email = document.getElementById("loginEmail").value;
+  const password = document.getElementById("loginPassword").value;
+
+  if (loginUser(email, password)) {
+    alert("Login successful!");
+    window.location.href = "index.html";
+  } else {
+    alert("Invalid credentials.");
+  }
+});
+</script>
+</body>
+</html>

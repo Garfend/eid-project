@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Register</title>
+<link href="style/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+<h2>Register</h2>
+<form id="registerForm">
+<input id="name" placeholder="Full Name" required="" type="text"/>
+<input id="email" placeholder="Email" required="" type="email"/>
+<div class="password-container">
+<input id="password" placeholder="Password" required="" type="password"/>
+<span class="toggle-password" onclick="togglePassword('password')">👁️</span>
+</div>
+<button type="submit">Register</button>
+</form>
+<p>Already have an account? <a href="login.html">Login here</a></p>
+</div>
+
+<script src="js/auth.js"></script>
+<script>
+document.getElementById("registerForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  if (registerUser(name, email, password)) {
+    alert("Registered successfully!");
+    window.location.href = "index.html";
+  } else {
+    alert("User already exists.");
+  }
+});
+</script>
+</body>
+</html>

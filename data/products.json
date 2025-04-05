@@ -1,0 +1,141 @@
+[
+  {
+    "name": "سماعات سوني WH-1000XM4",
+    "description": "سماعات رأس لاسلكية مع إلغاء ضوضاء متقدم وجودة صوت عالية.",
+    "category": "headphones",
+    "images": [
+      "./assets/images/sony_1000xm4-1.jpg",
+      "./assets/images/sony_1000xm4-2.jpg",
+      "./assets/images/sony_1000xm4-3.jpg",
+      "./assets/images/sony_1000xm4-4.jpg",
+      "./assets/images/sony_1000xm4-5.jpg"
+    ],
+    "rating": 4.8,
+    "price": 350,
+    "id": 1
+  },
+  {
+    "name": "هاتف سامسونج جالاكسي S25",
+    "description": "هاتف ذكي بشاشة 6.5 إنش، كاميرا ثلاثية، وسعة تخزين 128 جيجابايت.",
+    "category": "smartphones",
+    "images": [
+      "./assets/images/sam_25s-1.jpg",
+      "./assets/images/sam_25s-2.jpg",
+      "./assets/images/sam_25s-3.jpg"
+    ],
+    "rating": 4.7,
+    "price": 999,
+    "id": 2
+  },
+  {
+    "name": "ساعة آبل ووتش سيريز 8",
+    "description": "ساعة ذكية مع ميزات تتبع الصحة واللياقة، وتصميم أنيق.",
+    "category": "smartwatches",
+    "images": [
+      "./assets/images/apple-watch-series-8-45mm-midnight_1.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_2.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_3.jpg",
+      "./assets/images/apple-watch-series-8-45mm-midnight_4.jpg"
+    ],
+    "rating": 4.9,
+    "price": 429,
+    "id": 3
+  },
+  {
+    "name": "لابتوب ديل XPS 13",
+    "description": "لابتوب فائق النحافة مع شاشة 13.4 إنش وأداء عالي.",
+    "category": "laptops",
+    "images": [
+      "./assets/images/لابتو_ديل_XPS_13+1.webp",
+      "./assets/images/لابتو_ديل_XPS_13+2.webp",
+      "./assets/images/لابتو_ديل_XPS_13+3.webp",
+      "./assets/images/لابتو_ديل_XPS_13+4.webp"
+    ],
+    "rating": 4.6,
+    "price": 1200,
+    "id": 4
+  },
+  {
+    "name": "كاميرا كانون EOS R5",
+    "description": "كاميرا رقمية بدون مرآة بدقة 45 ميجابكسل وتصوير فيديو 8K.",
+    "category": "cameras",
+    "images": [
+      "./assets/images/canon-camera-1.jpg",
+      "./assets/images/canon-camera-2.jpg",
+      "./assets/images/canon-camera-3.jpg"
+    ],
+    "rating": 4.8,
+    "price": 3899,
+    "id": 5
+  },
+  {
+    "name": "جهاز أمازون كيندل بيبروايت",
+    "description": "قارئ إلكتروني بشاشة 6.8 إنش وإضاءة أمامية قابلة للتعديل.",
+    "category": "e-readers",
+    "images": [
+      "./assets/images/kendel-1.jpg",
+      "./assets/images/kendel-2.jpg",
+      "./assets/images/kendel-3.jpg",
+      "./assets/images/kendel-4.jpg"
+    ],
+    "rating": 4.7,
+    "price": 139,
+    "id": 6
+  },
+  {
+    "name": "سماعات أبل AirPods Pro",
+    "description": "سماعات أذن لاسلكية مع إلغاء ضوضاء نشط وتصميم مريح.",
+    "category": "headphones",
+    "images": [
+      "./assets/images/airpods-pro-1.jpg",
+      "./assets/images/airpods-pro-2.jpg",
+      "./assets/images/airpods-pro-3.jpg",
+      "./assets/images/airpods-pro-4.jpg"
+    ],
+    "rating": 4.8,
+    "price": 249,
+    "id": 7
+  },
+  {
+    "name": "جهاز جوجل Nest Hub",
+    "description": "شاشة ذكية مقاس 7 إنش مع مساعد جوجل المدمج.",
+    "category": "smart-home-devices",
+    "images": [
+      "./assets/images/nest-hub-1.jpg",
+      "./assets/images/nest-hub-2.jpg",
+      "./assets/images/nest-hub-3.jpg",
+      "./assets/images/nest-hub-4.jpg"
+    ],
+    "rating": 4.6,
+    "price": 99,
+    "id": 8
+  },
+  {
+    "name": "تابلت سامسونج جالاكسي Tab S8",
+    "description": "جهاز لوحي بشاشة 11 إنش وأداء عالي للاستخدام المتعدد.",
+    "category": "tablets",
+    "images": [
+      "./assets/images/sam-tab-s8-1.jpg",
+      "./assets/images/sam-tab-s8-2.jpg",
+      "./assets/images/sam-tab-s8-3.jpg",
+      "./assets/images/sam-tab-s8-4.jpg"
+    ],
+    "rating": 4.7,
+    "price": 699,
+    "id": 9
+  },
+  {
+    "name": "كاميرا نيكون Z6 II",
+    "description": "كاميرا بدون مرآة بدقة 24.5 ميجابكسل وأداء عالي في الإضاءة المنخفضة.",
+    "category": "cameras",
+    "images": [
+      "./assets/images/canon-6ii-1.jpg",
+      "./assets/images/canon-6ii-2.jpg",
+      "./assets/images/canon-6ii-3.jpg",
+      "./assets/images/canon-6ii-4.jpg"
+    ],
+    "rating": 4.7,
+    "price": 1999,
+    "id": 10
+  }
+]

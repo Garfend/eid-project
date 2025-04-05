@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<section id="collection">
+<div class="collections"> <!-- This was missing -->
+<div class="content">
+<img alt="img" src="https://i.postimg.cc/Xqmwr12c/clothing.webp"/>
+<div class="img-content">
+<p>Clothing Collections</p>
+<button><a href="#sellers">SHOP NOW</a></button>
+</div>
+</div>
+<div class="content">
+<img alt="img" src="https://i.postimg.cc/Xqmwr12c/clothing.webp"/>
+<div class="img-content">
+<p>Clothing Collections</p>
+<button><a href="#sellers">SHOP NOW</a></button>
+</div>
+</div>
+</div> <!-- Close .collections -->
+</section>
+<div class="testimonial-card">
+<div class="stars">
+<span class="star filled">★</span>
+<span class="star filled">★</span>
+<span class="star filled">★</span>
+<span class="star filled">★</span>
+<span class="star">★</span>
+</div> <button class="icon-btn">
+            🛒
+          </button>
+<p class="testimonial-text">
+          استخدمنا سلة قبل أربع سنوات ثم غادرناها قبل أن يكون فيها خيارات ترقية مدفوعة، خسرنا مبالغ كبيرة جدا في عمل متجر وتعبنا جدا في التعامل مع المبرمجين. ثم عدنا لمنصة سلة ووجدنا تطوراً هائلاً وعملاً مميزاً
+        </p>
+<div class="author">
+<img alt="محمد السيد" class="author-img" src="https://randomuser.me/api/portraits/men/32.jpg"/>
+<div>
+<div class="author-name">محمد السيد</div>
+<div class="author-title">مهندس إستشاري لدى شركة سلة</div>
+</div>
+</div>
+</div>
+<section>
+</section>
+<section>
+</section>
+<section>
+<div class="seller container">
+<h2>Top Sales</h2>
+<div class="best-seller">
+<div class="best-p1">
+<img alt="img" src="https://i.postimg.cc/8CmBZH5N/shoes.webp"/>
+<div class="best-p1-txt">
+<div class="name-of-p">
+<p>PS England Shoes</p>
+</div>
+<div class="rating">
+<i class="bx bxs-star"></i>
+<i class="bx bxs-star"></i>
+<i class="bx bxs-star"></i>
+<i class="bx bx-star"></i>
+<i class="bx bx-star"></i>
+</div>
+<div class="price">
+                        $37.24
+                        <div class="colors">
+<i class="bx bxs-circle red"></i>
+<i class="bx bxs-circle blue"></i>
+<i class="bx bxs-circle white"></i>
+</div>
+</div>
+<div class="buy-now">
+<button><a href="https://codepen.io/sanketbodke/full/mdprZOq">Buy  Now</a></button>
+</div>
+<!-- <div class="add-cart">
+                        <button>Add To Cart</button>
+                    </div> -->
+</div>
+</div>
+</div>
+</div>
+</section><script src="js/auth.js"></script>
+<script>
+  const user = getCurrentUser();
+  const signInUpContainer = document.querySelector(".sing_in_up");
+  if (user && signInUpContainer) {
+    signInUpContainer.innerHTML = `
+      <span>Welcome, ${user.name}</span>
+      <a href="#" onclick="logoutUser(); location.reload()">Logout</a>
+    `;
+  }
+</script>
+</body>
+</html>
